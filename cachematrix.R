@@ -31,7 +31,7 @@ setmatrix<-function(y){  # Set matrix value
   
 getmatrix<-function() x  # Get the matrix value cached with setmatrix
 setinverse<-function(solve) m<<- solve  # Cached value of inverse matrix is saved in m
-getinverse<-function() m  # Get the saved value of inverse matrix m that was saved with setinverse
+getinverse<-function() m  
 getenv<- function() environment()
 
 list (setmatrix=setmatrix, getmatrix = getmatrix, # creates list to house the four functions  
